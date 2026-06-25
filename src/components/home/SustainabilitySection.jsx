@@ -58,7 +58,7 @@ const SustainabilitySection = () => {
                   onClick={() =>
                     setActive(active === index ? null : index)
                   }
-                  className="flex w-full items-center justify-between p-5 text-left"
+                  className="flex w-full items-center justify-between p-5 text-left bg-secondary rounded-2xl"
                 >
                   <span className="font-inter text-lg font-semibold">
                     {item.title}
