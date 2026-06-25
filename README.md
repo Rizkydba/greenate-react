@@ -1,16 +1,90 @@
-# React + Vite
+# Greenate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend Technical Test implementation based on the provided Figma design.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React
+* Vite
+* Tailwind CSS v4
+* React Router DOM
+* Swiper.js
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Home Page
 
-## Expanding the ESLint configuration
+* Responsive Home Navbar
+* Hero Carousel
+* Featured Products Section
+* About Section
+* Sustainability Accordion
+* Join Movement Section
+* Testimonials Section
+* Footer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+src/
+├── assets/
+│   ├── fonts/
+│   ├── icons/
+│   └── images/
+├── components/
+│   ├── common/
+│   ├── home/
+│   └── layout/
+├── layouts/
+├── pages/
+├── App.jsx
+└── main.jsx
+```
+
+## Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/Rizkydba/greenate-react.git
+```
+
+Go to the project directory
+
+```bash
+cd greenate-react
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+## Notes
+
+This project was developed as part of a frontend technical assessment.
+
+The current implementation focuses on the **Home Page** based on the provided design. Some planned features, such as the Shop page and shopping cart functionality, were not completed due to the assessment time constraints.
+
+## Author
+
+**Rizkydba**
