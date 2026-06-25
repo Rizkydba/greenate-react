@@ -14,6 +14,27 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Barrio";
+  src: url("./assets/fonts/Barrio/Barrio-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter/Inter_18pt-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter/Inter_18pt-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
 @theme {
   --color-primary: #133630;
   --color-secondary: #D7E7B6;
@@ -22,4 +43,22 @@
   --color-background: #F0EADF;
 
   --font-baloo: "Baloo Bhai 2", sans-serif;
+  --font-barrio: "Barrio", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+/*Swiper Carousel*/
+.swiper-pagination{
+  bottom: clamp(25px,2.344vw,45px) !important;
+}
+
+.swiper .swiper-pagination-bullet {
+  width: clamp(8px,0.833vw,16px);
+  height: clamp(8px,0.833vw,16px);
+  background-color: white !important;
+  opacity: 1;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: #737b67 !important;
 }
